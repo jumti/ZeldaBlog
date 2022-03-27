@@ -1882,6 +1882,7 @@ input, select, textarea {
 
 /* Icon */
 
+
 	.icon {
 		text-decoration: none;
 		position: relative;
@@ -2248,7 +2249,17 @@ input, select, textarea {
 				}
 
 		.wrapper.style3 {
-			background: #fff;
+			background: rgb(210, 255, 216);
+			color: inherit;
+		}
+
+		.wrapper.style5 {
+			background: rgb(222, 210, 255);
+			color: inherit;
+		}
+
+		.wrapper.style6 {
+			background: rgb(253, 232, 255);
 			color: inherit;
 		}
 

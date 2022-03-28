@@ -10,4 +10,8 @@
 		opacity: 1;
 	}
 
-/* Video */
+	.iframes {
+		width: 100%;
+		height: auto;
+		text-align: center;
+	}

@@ -337,6 +337,10 @@ input, select, textarea {
 			width: 50%;
 		}
 
+			.col-6:hover{
+				color: rgb(201, 159, 43);
+			}
+
 		.row > .off-6 {
 			margin-left: 50%;
 		}
@@ -385,9 +389,18 @@ input, select, textarea {
 			width: 100%;
 		}
 
+			.col-12:hover{
+				color: rgb(201, 159, 43);
+			}
+
 		.row > .off-12 {
 			margin-left: 100%;
 		}
+
+		.col-13:hover{
+			color: rgb(201, 159, 43);
+		}
+
 
 		.row.gtr-0 {
 			margin-top: 0px;
@@ -1367,6 +1380,8 @@ input, select, textarea {
 					margin-left: 100%;
 				}
 
+				
+
 				.row.gtr-0 {
 					margin-top: 0px;
 					margin-left: 0px;
@@ -2094,6 +2109,10 @@ input, select, textarea {
 				padding: 0;
 			}
 
+				.button:hover{
+					color: rgb(201, 159, 43);
+				}
+
 /* Table */
 
 	table {
@@ -2169,9 +2188,9 @@ input, select, textarea {
 		input[type="reset"].primary,
 		button.primary,
 		.button.primary {
-			background: #83d3c9;
-			border-color: #83d3c9;
-			color: #fff !important;
+			background: #ffffff;
+			border-color: #ffffff;
+			color: rgb(201, 159, 43) !important;
 		}
 
 			input[type="button"].primary:hover,
@@ -2179,8 +2198,8 @@ input, select, textarea {
 			input[type="reset"].primary:hover,
 			button.primary:hover,
 			.button.primary:hover {
-				background: #96dad1 !important;
-				border-color: #96dad1 !important;
+				background: rgb(170, 221, 255) !important;
+				border-color: rgb(201, 159, 43) !important;
 			}
 
 		input[type="button"].fit,
@@ -2226,7 +2245,7 @@ input, select, textarea {
 			.wrapper.style2 input[type="reset"]:hover,
 			.wrapper.style2 button:hover,
 			.wrapper.style2 .button:hover {
-				background: rgba(255, 255, 255, 0.15) !important;
+				background: rgba(197, 222, 255, 0.26) !important;
 			}
 
 			.wrapper.style2 input[type="button"].primary,
@@ -2410,6 +2429,11 @@ input, select, textarea {
 						font-weight: 900;
 					}
 
+					#header nav ul li.currents > a {
+						font-weight: 900;
+						color: rgb(201, 159, 43);
+					}
+
 		#header.reveal {
 			-moz-animation: reveal-header 0.5s;
 			-webkit-animation: reveal-header 0.5s;
@@ -2542,7 +2566,7 @@ input, select, textarea {
 		background-position: bottom left, bottom right, top left, top center;
 		background-repeat: no-repeat, no-repeat, repeat, no-repeat;
 		background-size: 25em, 25em, auto, cover;
-		color: #fff;
+		color: rgb(255, 255, 255);
 		cursor: default;
 		padding: 6em 0;
 		text-align: center;
@@ -2563,6 +2587,10 @@ input, select, textarea {
 			opacity: 0;
 			padding: 3em;
 			text-align: center;
+		}
+
+		#banner .inner:hover{
+			color: rgb(201, 159, 43);
 		}
 
 			#banner .inner header {
@@ -2652,7 +2680,7 @@ input, select, textarea {
 /* Footer */
 
 	#footer {
-		background: #E8EEF4;
+		background: #daecff;
 		color: #7c8081;
 		padding: 5em 5em 10em 5em;
 		text-align: center;
@@ -3350,3 +3378,19 @@ input, select, textarea {
 			}
 
 	}
+
+.text-color{
+	color: rgb(170, 170, 170);
+}
+
+.text-color-1{
+	color: rgb(61, 185, 158);
+}
+
+.text-color-2{
+	color: rgb(61, 125, 185);
+}
+
+.text-color-3{
+	color: rgb(185, 61, 102);
+}
